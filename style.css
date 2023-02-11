@@ -1,0 +1,38 @@
+body{
+    background-color: #222;
+}
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.card{   
+    width: 30%;
+    margin-bottom: -4px;
+    color: #fff;
+}
+.div2{
+    background-color: rgb(37, 142, 142);
+    margin-top: 2px;    
+    text-align: center;
+    padding: 12px; 
+       
+}
+#search{
+    padding: 7px;
+    border: 2px solid rgb(180, 73, 91);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(160, 44, 63);
+    font-weight: 15px;
+}
+
+#btn{
+    padding: 7px;
+    border: 2px solid rgb(180, 73, 91);   
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(160, 44, 63);
+    cursor: pointer;    
+}
